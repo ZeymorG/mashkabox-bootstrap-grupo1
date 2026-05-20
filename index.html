@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Mashka Box Training Club — Centro de entrenamiento funcional y CrossFit en Latacunga. Primera clase gratis.">
+    <title>Mashka Box Training Club</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- HEADER / NAV -->
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                <span class="logo-text">MASHKA <span class="logo-accent">BOX</span></span>
+            </div>
+            <nav class="nav" aria-label="Navegación principal">
+                <a href="#inicio" class="nav__link">Inicio</a>
+                <a href="#beneficios" class="nav__link">Beneficios</a>
+                <a href="#horarios" class="nav__link">Horarios</a>
+                <a href="#contacto" class="nav__link">Contacto</a>
+            </nav>
+            <button class="nav__toggle" aria-label="Abrir menú">&#9776;</button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="hero__content">
+            <p class="hero__subtitle">No necesitas experiencia<br>Solo ganas de empezar</p>
+            <div class="hero__actions">
+                <a href="#contacto" class="btn btn--dark">CONTÁCTANOS</a>
+                <a href="#beneficios" class="btn btn--outline">SABER MÁS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- BIENVENIDA -->
+    <section class="welcome">
+        <div class="container">
+            <h2 class="section__title">Bienvenido a Mashka Box</h2>
+            <p class="welcome__text">
+                Somos un centro de entrenamiento funcional y CrossFit en Latacunga.<br>
+                Te ayudamos a mejorar tu condición física sin importar tu nivel.
+            </p>
+            <div class="video-wrapper">
+                <video controls preload="metadata">
+                    <source src="videos/video1.mp4" type="video/mp4">
+                    Tu navegador no soporta video HTML5.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFICIOS + GALERÍA -->
+    <section id="beneficios" class="benefits">
+        <div class="container">
+            <h2 class="section__title">¿Por qué entrenar con nosotros?</h2>
+            <p class="benefits__intro">
+                En Mashka Box no solo vienes a entrenar, vienes a superarte cada día.
+                Aquí no importa si estás empezando o si ya tienes experiencia, lo importante
+                es que quieras mejorar y dar lo mejor de ti 💪
+            </p>
+            <ul class="benefits__list">
+                <li class="benefits__item"><span class="benefits__icon">⚡</span>Entrenamientos adaptados para todos los niveles</li>
+                <li class="benefits__item"><span class="benefits__icon">🎯</span>Coaches que te guían paso a paso desde el inicio</li>
+                <li class="benefits__item"><span class="benefits__icon">🔥</span>Ambiente motivador y comunidad que te impulsa a seguir</li>
+                <li class="benefits__item"><span class="benefits__icon">🆓</span>Primera clase de prueba para vivir la experiencia</li>
+                <li class="benefits__item"><span class="benefits__icon">📈</span>Resultados reales con disciplina y constancia</li>
+                <li class="benefits__item"><span class="benefits__icon">💛</span>Más que un gimnasio, una familia</li>
+            </ul>
+            <p class="benefits__cta-text">
+                No necesitas estar en forma para empezar… empiezas para ponerte en forma. Este es tu momento. 💥
+            </p>
+
+            <h3 class="gallery__title">Nuestras instalaciones y entrenamientos</h3>
+            <div class="gallery">
+                <div class="gallery__item"><img src="img/gym1.webp" alt="Entrenamiento funcional" loading="lazy"></div>
+                <div class="gallery__item"><img src="img/gym2.webp" alt="Zona de pesas" loading="lazy"></div>
+                <div class="gallery__item"><img src="img/gym3.webp" alt="Clase grupal" loading="lazy"></div>
+                <div class="gallery__item"><img src="img/gym4.webp" alt="Área de CrossFit" loading="lazy"></div>
+                <div class="gallery__item"><img src="img/gym5.webp" alt="Entrenamiento con pesas" loading="lazy"></div>
+                <div class="gallery__item"><img src="img/gym6.webp" alt="Grupo entrenando" loading="lazy"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLANES -->
+    <section id="planes" class="plans">
+        <div class="container">
+            <p class="plans__eyebrow">Entrena con nosotros</p>
+            <h2 class="section__title">Planes</h2>
+            <div class="plans__grid">
+                <div class="plan-card">
+                    <span class="plan-card__num">1</span>
+                    <h3 class="plan-card__name">PLAN GRUPAL</h3>
+                    <p class="plan-card__desc">$30 c/U.<br> Desde 3 personas.</p>
+                </div>
+                <div class="plan-card">
+                    <span class="plan-card__num">2</span>
+                    <h3 class="plan-card__name">PLAN ESTUDIANTES</h3>
+                    <p class="plan-card__desc">$30 c/U.<br> Con carnet vigente.</p>
+                </div>
+                <div class="plan-card">
+                    <span class="plan-card__num">3</span>
+                    <h3 class="plan-card__name">PLAN MENSUAL</h3>
+                    <p class="plan-card__desc">$35 c/U.<br> ¡Intenta un mes!</p>
+                </div>
+                <div class="plan-card">
+                    <span class="plan-card__num">4</span>
+                    <h3 class="plan-card__name">PLAN TRIMESTRAL</h3>
+                    <p class="plan-card__desc">$95 c/U.<br> Comprométete 90 días.</p>
+                </div>
+                <div class="plan-card  plan-card--full">
+                    <span class="plan-card__num">5</span>
+                    <h3 class="plan-card__name">PLAN SEMESTRAL</h3>
+                    <p class="plan-card__desc">$180 c/U.<br> Convierte tu vida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HORARIOS -->
+    <section id="horarios" class="schedule">
+        <div class="container">
+            <h2 class="section__title">Horarios de atención</h2>
+            <div class="schedule__inner">
+                <div class="schedule__table-wrap">
+                    <table class="schedule__table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Día</th>
+                                <th scope="col">Horario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lunes a Viernes</td>
+                                <td>5:00, 6:00, 7:00, 8:00 AM<br>4:00, 5:00, 6:00, 7:00, 8:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Sábado</td>
+                                <td>9:00 AM</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="schedule__video">
+                    <video controls preload="metadata">
+                        <source src="videos/video2.mp4" type="video/mp4">
+                        Tu navegador no soporta video HTML5.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section__title">Contáctanos</h2>
+            <form class="contact__form" action="registrar.php" method="POST" novalidate>
+                <div class="contact__fields">
+                    <input type="text"  name="nombre" placeholder="Nombre" required autocomplete="name">
+                    <input type="tel"   name="telefono" placeholder="Número Telefónico" required autocomplete="tel">
+                    <input type="email" name="email" placeholder="Email" required autocomplete="email">
+                </div>
+                <textarea name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..."></textarea>
+                <button type="submit" class="btn btn--dark">ENVIAR</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__contact">
+                <div class="footer__item">
+                    <span class="footer__icon" aria-hidden="true">📞</span>
+                    <div>
+                        <p class="footer__label">Teléfono</p>
+                        <a href="tel:+593983421877" class="footer__value">0983421877</a>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <span class="footer__icon" aria-hidden="true">✉️</span>
+                    <div>
+                        <p class="footer__label">Email</p>
+                        <a href="mailto:mashkaboxtc@gmail.com" class="footer__value">mashkaboxtc@gmail.com</a>
+                    </div>
+                </div>
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/mashkabox/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">f</a>
+                    <a href="#" class="social-link" aria-label="X (Twitter)">𝕏</a>
+                    <a href="https://www.instagram.com/mashkabox/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">ig</a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+                </div>
+            </div>
+            <div class="footer__map">
+                <iframe
+                    src="https://www.google.com/maps?q=Av.+Unidad+Nacional+y+Manuelita+Saenz,+Latacunga&output=embed"
+                    title="Ubicación Mashka Box — Av. Unidad Nacional y Manuelita Sáenz, Latacunga"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <p class="footer__address">📍 Av. Unidad Nacional y Manuelita Sáenz, Latacunga, Ecuador</p>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p><strong>Mashka Box Training Club</strong></p>
+            <p>© 2026 Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+</body>
+</html>
