@@ -303,35 +303,55 @@
     </section>
 
     <!-- HORARIOS -->
-    <section id="horarios" class="schedule">
+    <section id="horarios" class="py-5 bg-dark text-light">
         <div class="container">
-            <h2 class="section__title">Horarios de atención</h2>
-            <div class="schedule__inner">
-                <div class="schedule__table-wrap">
-                    <table class="schedule__table">
-                        <thead>
-                            <tr>
-                                <th scope="col">Día</th>
-                                <th scope="col">Horario</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Lunes a Viernes</td>
-                                <td>5:00, 6:00, 7:00, 8:00 AM<br>4:00, 5:00, 6:00, 7:00, 8:00 PM</td>
-                            </tr>
-                            <tr>
-                                <td>Sábado</td>
-                                <td>9:00 AM</td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <h2 class="text-center text-warning text-uppercase fw-bold mb-5">
+                Horarios de atención
+            </h2>
+            <div class="row align-items-center g-4">
+                <!-- TABLA -->
+                <div class="col-lg-7">
+                    <div class="table-responsive">
+                        <table class="table table-dark table-bordered border-black align-middle text-center">
+                            <thead class="table-info">
+                                <tr>
+                                    <th>Día</th>
+                                    <th>Horario</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="fw-bold">
+                                        Lunes a Viernes
+                                    </td>
+                                    <td>
+                                        5:00, 6:00, 7:00, 8:00 AM
+                                        <br>
+                                        4:00, 5:00, 6:00, 7:00, 8:00 PM
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold">
+                                        Sábado
+                                    </td>
+                                    <td>
+                                        9:00 AM
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <div class="schedule__video">
-                    <video controls preload="metadata">
-                        <source src="videos/video2.mp4" type="video/mp4">
-                        Tu navegador no soporta video HTML5.
-                    </video>
+                <!-- VIDEO -->
+                <div class="col-lg-5">
+                    <div class="card bg-black border border-info shadow w-75 mx-auto">
+                        <div class="card-body p-2">
+                            <video controls class="w-100 rounded">
+                                <source src="videos/video2.mp4" type="video/mp4">
+                                Tu navegador no soporta video.
+                            </video>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
