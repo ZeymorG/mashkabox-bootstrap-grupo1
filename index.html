@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="overflow-x-hidden">
 
     <!-- HEADER / NAV -->
     <header class="bg-black sticky-top">
@@ -40,26 +40,27 @@
     </header>
 
     <!-- HERO -->
-    <section id="inicio" class="hero">
-        <div class="hero__bg" aria-hidden="true"></div>
-        <div class="hero__content">
-            <p class="hero__subtitle">No necesitas experiencia<br>Solo ganas de empezar</p>
-            <div class="hero__actions">
-                <a href="#contacto" class="btn btn--dark">CONTÁCTANOS</a>
-                <a href="#beneficios" class="btn btn--outline">SABER MÁS</a>
+    <section id="inicio" class="bg-dark text-white text-center d-flex align-items-center" style="min-height: calc(100vh - 72px);">
+        <div class="container py-5">
+            <p class="display-3 fw-bold mb-4">
+                No necesitas experiencia<br>Solo ganas de empezar
+            </p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap mt-5">
+                <a href="#contacto" class="btn btn-warning text-dark fw-bold rounded-pill px-5 py-3">CONTÁCTANOS</a>
+                <a href="#beneficios" class="btn btn-outline-light fw-bold rounded-pill px-5 py-3">SABER MÁS</a>
             </div>
         </div>
     </section>
 
     <!-- BIENVENIDA -->
-    <section class="welcome">
-        <div class="container">
-            <h2 class="section__title">Bienvenido a Mashka Box</h2>
-            <p class="welcome__text">
+    <section id="bienvenidad" class="py-5 bg-light text-dark">
+        <div class="container py-5 text-center">
+            <h2 class="display-5 fw-bold mb-4">Bienvenido a Mashka Box</h2>
+            <p class="lead mb-5 mx-auto">
                 Somos un centro de entrenamiento funcional y CrossFit en Latacunga.<br>
                 Te ayudamos a mejorar tu condición física sin importar tu nivel.
             </p>
-            <div class="video-wrapper">
+            <div class="d-flex justify-content-center">
                 <video controls preload="metadata">
                     <source src="videos/video1.mp4" type="video/mp4">
                     Tu navegador no soporta video HTML5.
